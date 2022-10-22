@@ -7,13 +7,13 @@ categories:
 tags:
   - [Github, Github_Blog]
 
-# permalink: /categories1/post-name-here/ # 포스트 URL
+permalink: /Github Blog/github-blog-1/ # 포스트 URL
 
 toc: true
 toc_sticky: true
  
-date: 2022-10-21
-last_modified_at: 2022-10-21
+date: 2022-10-22
+last_modified_at: 2022-10-22
 ---
 미미..라고 아시나요?..
 
@@ -22,7 +22,7 @@ last_modified_at: 2022-10-21
 
 공주미미 아니고요.
 
-![미미](https://cdn.ppomppu.co.kr/zboard/data3/2021/0616/20210616091301_pugbeusf.png)
+![요리왕 비룡 미미](https://user-images.githubusercontent.com/80311884/223377317-f35fec7a-b5e2-4a74-9db2-3296cf7589fd.png)
 
 요리왕 비룡 미미도 아니고요.
 

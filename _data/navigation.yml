@@ -20,6 +20,8 @@ main:
 categories:
   - title: "Github Blog"
     url: /categories/Github Blog/
+  - title: "React"
+    url: /categories/React/
   # - title: "Categories2"
   #   url: /categories/categories2/
   # - title: "Categories3"

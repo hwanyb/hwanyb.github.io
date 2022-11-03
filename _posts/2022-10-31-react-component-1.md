@@ -13,14 +13,16 @@ toc: true
 toc_sticky: true
  
 date: 2022-10-31
-last_modified_at: 2022-10-31
+last_modified_at: 2022-11-03
 ---
 리액트 컴포넌트에 대한 기초를 다시 다지기 위한 포스팅!
 
 생활코딩의 **React class vs function style coding** 강의를 참고하여 작성하였습니다.
 
 강의 링크 : [React class vs function style coding](https://inf.run/NgAx)
+
 ***
+
 React 컴포넌트는 **클래스형 컴포넌트**, **함수형 컴포넌트** 이 2가지 방식으로 만들 수 있습니다.
 
 과거에는 클래스형 컴포넌트를 많이 사용했습니다.
@@ -311,7 +313,7 @@ function App() {
 
     갱신이 일어난 직후에 호출됩니다. 이 메서드는 최초 렌더링에서는 호출되지 않습니다.
 
-### **언마운트 (Unmount)**
+### ✔ **언마운트 (Unmount)**
 리액트에서 언마운트는 컴포넌트가 화면에서 사라지는 것을 의미합니다. 
 
 언마운트 시점에 호출되는 메소드는 `componentWillUnmount`가 있습니다.
@@ -322,9 +324,11 @@ function App() {
     여기서는 주로 DOM에 직접 등록했었던 이벤트를 제거하고, 만약에 setTimeout 을 걸은것이 있다면 clearTimeout 을 통하여 제거를 합니다. 추가적으로, 외부 라이브러리를 사용한게 있고 해당 라이브러리에 dispose 기능이 있다면 여기서 호출해주시면 됩니다.
 
 ***
+
 이번 포스팅은 클래스형 컴포넌트에서의 `props` 사용법, `state` 사용법, `state` 변경법, `life cycle` 메소드에 대해 작성했습니다.
 
 다음 포스팅에서는 함수형 컴포넌트에서의 `props` 사용법, `state` 사용법, `state` 변경법, `life cycle` 구현 에 대해 알아보겠습니다.
 
 그럼 이만..총총총
+
 ![i15928796274](https://user-images.githubusercontent.com/80311884/225607989-d6bbdd7c-c505-458b-8b34-79e533b87e6e.gif)

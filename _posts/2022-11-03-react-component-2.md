@@ -18,7 +18,9 @@ last_modified_at: 2022-11-03
 안녕하세요! 리액트 클래스형 컴포넌트 포스팅에 이어 함수형 컴포넌트 포스팅을 작성해 보려 합니다!
 
 이 포스팅에서는 리액트의 함수형컴포넌트 `props`, `state`, `hooks` 등에 대해 알아보겠습니다~~
+
 ***
+
 ## ✅ **함수형 컴포넌트에서의 `props`사용법**
 
 부모 컴포넌트인 `App.js`에서 `FuncComp`라는 컴포넌트에 `props`로 `initNum`을 전달해 보겠습니다.
@@ -144,6 +146,7 @@ function FuncComp(props) {
 ```
 
 위 코드를 실행시키면 콘솔창에
+
 ![image](https://user-images.githubusercontent.com/80311884/225677773-907b7723-5b97-4854-bce6-a6073283c21a.png)
 
 이러한 결과가 뜨게 됩니다.
@@ -151,6 +154,7 @@ function FuncComp(props) {
 컴포넌트가 생성된 직후 호출되는 `componentDidMount` 메소드와 같다고 볼 수 있습니다.
 
 랜덤 버튼을 클릭하면 콘솔창에
+
 ![image](https://user-images.githubusercontent.com/80311884/225678824-f6c76dcd-7c39-411f-8eff-1034094e18f7.png)
 
 이러한 결과가 뜨게 됩니다.
@@ -274,11 +278,13 @@ function FuncComp(props) {
 }
 ```
 위 코드는 
+
 ![image](https://user-images.githubusercontent.com/80311884/225695505-795db4d8-3289-4b52-833b-0e4b6976f4e3.png)
 
 `state`인 `number`, `date`를 렌더링하고 버튼 클릭시 값이 변경됩니다.
 
 date 버튼 클릭시 콘솔창에는 아래와 같은 결과가 출력됩니다.
+
 ![image](https://user-images.githubusercontent.com/80311884/225696255-0e3b5378-a842-4e3b-9b1b-9107a1712a25.png)
 
 random버튼 클릭시에는 아래와 같은 결과가 출력됩니다.
@@ -289,7 +295,9 @@ random버튼 클릭시에는 아래와 같은 결과가 출력됩니다.
 
 
 > useEffect의 두번째 인자를 빈 배열로 전달할 시 useEffect가 컴포넌트가 최초렌더링 될 때에만 실행됩니다.
+
 ***
+
 휴,, 길고도 험한 포스팅이었습니다.
 
 이번 포스팅에서는 리액트의 함수형 컴포넌트에서 props 사용법, useState, useEffect 사용법 등을 알아보았습니다.
@@ -301,4 +309,5 @@ random버튼 클릭시에는 아래와 같은 결과가 출력됩니다.
 또 클린업 함수에 대해 정확하게 알고 넘어갈 수 있는 계기가 되어서 앞으로 useEffect 사용할 때 유용할 것 같아요! 😃
 
 그럼 이만.. 총총총
+
 ![총총총](https://user-images.githubusercontent.com/80311884/225698792-786e35d0-eb5c-448c-b9d1-1b7a371c0770.gif)

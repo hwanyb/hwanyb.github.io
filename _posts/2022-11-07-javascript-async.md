@@ -86,7 +86,7 @@ func1();
 - 작업 예약
 
 ## ✅ 자바스크립트에서 비동기적으로 코딩하는 방법이 무엇인가요?
-자바스크립트에서 비동기처리를 위해 [`callback 함수`](#callback-함수), `Promise`, `async` / `await` 를 사용할 수 있습니다.
+자바스크립트에서 비동기처리를 위해 [`callback 함수`](#-callback-함수), `Promise`, `async` / `await` 를 사용할 수 있습니다.
 콜백함수 사용에는 콜백지옥이라는 단점이 존재해, ES6에 도입된 `Promise`나 ES8에 도입된  `async` / `await를` 사용하여 비동기처리를 합니다.
 
 ### ✔ Promise

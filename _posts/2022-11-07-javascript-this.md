@@ -20,14 +20,14 @@ last_modified_at: 2022-11-07
 ***
 
 ## ✅ 자바스크립트에서 this란 무엇인가요?
-`this`는 호출 패턴에 따라 다른 객체를 참조합니다. [실행 컨텍스트](#✔-실행-컨텍스트-ec-execution-context)가 생성될때마다 this의 [바인딩](#✔-바인딩-binding)이 일어납니다.
+`this`는 호출 패턴에 따라 다른 객체를 참조합니다. [실행 컨텍스트](#-실행-컨텍스트-ec-execution-context)가 생성될때마다 this의 [바인딩](#-바인딩-binding)이 일어납니다.
 
 
 즉, 바인딩이 선언이 아닌 호출에 따라 달라집니다.
 
 this 의 바인딩을 우선순위 순으로 나열해 보면 다음과 같습니다.
 
-1. [`new`](#✔-new) 를 사용했을 때 해당 객체로 바인딩됩니다.
+1. [`new`](#-new) 를 사용했을 때 해당 객체로 바인딩됩니다.
     ```javascript
     var name = 'global';
     function Func() {
@@ -39,7 +39,7 @@ this 의 바인딩을 우선순위 순으로 나열해 보면 다음과 같습�
     var a = new Func();
     a.print(); // Func
     ```
-2. [`call`](#✔-call), [`apply`](#✔-apply), [`bind`](#✔-bind) 와 같은 명시적 바인딩을 사용했을 때, 인자로 전달된 객체에 바인딩됩니다.
+2. [`call`](#-call), [`apply`](#-apply), [`bind`](#-bind) 와 같은 명시적 바인딩을 사용했을 때, 인자로 전달된 객체에 바인딩됩니다.
     ```javascript
     function func() {
         console.log(this.name);

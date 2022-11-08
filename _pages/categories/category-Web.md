@@ -1,5 +1,5 @@
 ---
-title: Web"
+title: "Web"
 layout: category
 permalink: /categories/Web/
 author_profile: true

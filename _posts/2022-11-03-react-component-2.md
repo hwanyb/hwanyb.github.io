@@ -12,8 +12,8 @@ permalink: /React/react-component-2/
 toc: true
 toc_sticky: true
  
-date: 2022-11-03
-last_modified_at: 2022-11-03
+date: 2023-03-18
+last_modified_at: 2023-03-18
 ---
 안녕하세요! 리액트 클래스형 컴포넌트 포스팅에 이어 함수형 컴포넌트 포스팅을 작성해 보려 합니다!
 

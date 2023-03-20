@@ -12,8 +12,8 @@ permalink: /React/react-component-1/
 toc: true
 toc_sticky: true
  
-date: 2022-10-31
-last_modified_at: 2022-11-03
+date: 2023-03-18
+last_modified_at: 2023-03-18
 ---
 리액트 컴포넌트에 대한 기초를 다시 다지기 위한 포스팅!
 

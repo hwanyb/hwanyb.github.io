@@ -7,7 +7,7 @@ categories:
 tags:
   - [Github, Github_Blog, jekll]
 
-permalink: /Github Blog/github-blog-1/
+permalink: /Github Blog/github-blog-2/
 
 toc: true
 toc_sticky: true

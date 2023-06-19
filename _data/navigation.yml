@@ -28,3 +28,5 @@ categories:
     url: /categories/CSS/
   - title: "Web"
     url: /categories/Web/
+  - title: "MobX"
+    url: "/categories/MobX/"
